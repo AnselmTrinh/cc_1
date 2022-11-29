@@ -1,0 +1,112 @@
+/* -------------------------------------------------NAV BAR--------------------------------- */
+.navbar {
+  background-color: #222222;
+}
+
+.logo-top {
+  margin-left: 15%;
+}
+
+.navbar-nav {
+  margin-left: 60%;
+}
+/* 1ERE BANNER */
+
+#mainbanner {
+  background-image: url(img/hero-image.jpg);
+}
+
+#goal {
+  padding-top: 30px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+#texte {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  margin-top: 40px;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(187, 69, 69);
+  border: none;
+
+  width: 120px;
+  height: 40px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+#code {
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  width: 3rem;
+}
+
+/* 2EME BANNER */
+
+#divimg {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+h1 {
+  color: #e74c3c;
+  text-align: center;
+}
+hr {
+  width: 170px;
+  background-color: #e74c3c;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+/* 3EME BANNER */
+#divbanner3 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+img {
+  max-width: 25%;
+  height: auto;
+}
+h3 {
+  color: #e74c3c;
+}
+
+/* FOOTER */
+footer {
+  padding-bottom: 3%;
+  background-color: #e74c3c;
+}
+footer img {
+  margin-left: 20%;
+  margin-top: 7%;
+}
+/* BOUTON OUAI LES BOUTONS */
+.btn-involved {
+  color: #f74c3c;
+  display: flex;
+  width: 161px;
+  justify-content: center;
+  background-color: white;
+  border: 0.5px solid rgb(204, 204, 204);
+}
