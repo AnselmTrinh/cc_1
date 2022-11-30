@@ -1,3 +1,19 @@
+/* FONT FAMILLE  */
+@font-face {
+  font-family: Arvo-Regular;
+  src: url("../fonts/Arvo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Arvo-Bold;
+  src: url("../fonts/Arvo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("../fonts/Roboto-Thin.ttf") format("truetype");
+}
+
 /* -------------------------------------------------NAV BAR--------------------------------- */
 .navbar {
   background-color: #222222;
@@ -14,6 +30,7 @@
 
 #mainbanner {
   background-image: url(img/hero-image.jpg);
+  margin-top: 50px;
 }
 
 #goal {
@@ -57,11 +74,13 @@ button a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
-  width: 3rem;
+  width: 4rem;
 }
 
-/* 2EME BANNER */
-
+/* 2EME BANNER  WHO WE ARE*/
+.textcolor {
+  color: #e74c3c;
+}
 #divimg {
   display: flex;
   justify-content: space-evenly;
@@ -80,11 +99,12 @@ p {
   text-align: center;
 }
 
-/* 3EME BANNER */
+/* 3EME BANNER GET INVOLVED*/
 #divbanner3 {
   padding-top: 35px;
   padding-bottom: 35px;
 }
+
 img {
   max-width: 25%;
   height: auto;
@@ -112,3 +132,14 @@ footer img {
   background-color: white;
   border: 0.5px solid rgb(204, 204, 204);
 }
+@media screen and (max-width: 991px) {
+  col-lg-4 {
+    width: 40%;
+  }
+  img {
+    max-width: 15%;
+    height: auto;
+  }
+}
+
+/* bouton pour retourner ahome */
