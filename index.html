@@ -34,6 +34,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Arvo"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
 
@@ -49,17 +59,19 @@
         alt="one million brand logo"
       />
       <!-- BOUTON BUUUUURGER -->
-      <!-- <button
-        class="navbar-toggler d-lg-none"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#divimg">Who we are</a></li>
+          <li>
+            <a class="menu__item" href="#burgerbacktoinvolved">Get involved</a>
+          </li>
+        </ul>
+      </div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
@@ -109,7 +121,7 @@
       <div id="divimg"><img src="./img/academy-brand-med.png" alt="" /></div>
       <h1 id="whoweare">WHO WE ARE</h1>
       <hr />
-      <p>
+      <p id="burgerbacktoinvolved">
         We are <span class="textcolor">MASSIVE Academy</span>. We aim to improve
         education through both method - effective project-based learning - and
         material <br />- by teaching skills that are applicable to improving
